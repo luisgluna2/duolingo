@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       lessons:
-        default: 15
+        default: 150
         description: 'Number of lessons to be completed'
         required: false
         type: number
